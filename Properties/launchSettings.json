@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ScriptForms": {
+      "commandName": "Project"
+    },
+    "Профиль 1": {
+      "commandName": "Executable",
+      "executablePath": "E:\\Hlam\\Vegas\\vegas190.exe",
+      "commandLineArgs": "-SCRIPT:\"ScriptForms.dll\""
+    }
+  }
+}
