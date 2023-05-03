@@ -17,7 +17,7 @@ public class EntryPoint1
 {
     public void FromVegas(Vegas vegas)
     {
-        FileStream inis = new FileStream("D:\\RenderersVegas.txt", FileMode.OpenOrCreate);
+        FileStream inis = new FileStream("C:\\Users\\DevAcc\\Desktop\\RenderersVegas.txt", FileMode.OpenOrCreate); 
         StreamWriter iniw = new StreamWriter(inis);
         foreach (Renderer renderer in vegas.Renderers)
         {
